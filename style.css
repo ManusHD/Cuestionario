@@ -1,53 +1,55 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .question {
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  button {
-    position: sticky;
-    bottom: 1em;
-    margin: 20px auto;
-  }
-  
-  /* Estilos para las respuestas correctas */
-  .correcta::after, .correcta{
-    content: "\2713";
-    color: green;
-    margin-right: 5px;
-  }
-  
-  .incorrectaA::after {
-    content: "\2718";
-    color: red;
-    margin-right: 5px;
-  }
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
 
-  .incorrectaQ{
-    color: red;
-    margin-right: 5px;
-  }
-  
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  position: sticky;
+  bottom: 1em;
+  margin: 20px auto;
+  padding: 8px 4px;
+  font-weight: bolder;
+}
+
+/* Estilos para las respuestas correctas */
+.correcta::after,
+.correcta {
+  content: "\2713";
+  color: green;
+  margin-right: 5px;
+}
+
+.incorrectaA::after {
+  content: "\2718";
+  color: red;
+  margin-right: 5px;
+}
+
+.incorrectaQ {
+  color: red;
+  margin-right: 5px;
+}
