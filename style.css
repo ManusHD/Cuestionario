@@ -53,3 +53,15 @@ button {
   color: red;
   margin-right: 5px;
 }
+
+.correctas{
+  font-weight: bolder;
+}
+
+.correct-p{
+  position: sticky;
+  bottom: 1em;
+  margin: 0 0 0 200px;
+  padding: 0;
+  font-weight: bolder;
+}

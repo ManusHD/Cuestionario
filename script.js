@@ -28,8 +28,9 @@ document.getElementById('quiz-form').addEventListener('submit', function(e) {
         answer.classList.add('incorrectaA');
       }
     });
-  
-    //alert('Respuestas enviadas');
+
+    const correctas = $('.correctas');
+    correctas.text(correctAnswers);
   
     // Puedes utilizar la variable correctAnswers para mostrar la cantidad de respuestas correctas al usuario, enviar los resultados al servidor, etc.
   });
