@@ -4,6 +4,10 @@ body {
   margin: 20px;
 }
 
+a{
+  color: blue;
+}
+
 h1 {
   text-align: center;
 }
